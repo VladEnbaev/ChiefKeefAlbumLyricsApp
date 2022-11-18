@@ -25,7 +25,9 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.tableView.backgroundColor = .black
+        self.view.backgroundColor = .black
+        
         // Do any additional setup after loading the view.
     }
     
@@ -38,9 +40,17 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Title", for: indexPath)
         
+        //image
         cell.imageView?.image = UIImage(named: "FinallyRich")
+        cell.imageView?.layer.borderColor = UIColor.black.cgColor
+        cell.imageView?.layer.borderWidth = 3
+        //label
         cell.textLabel?.text = imageNameArray[indexPath.row]
         cell.textLabel?.numberOfLines = 2
+        cell.textLabel?.textColor = .white
+        //background
+        cell.backgroundView?.backgroundColor = .systemRed
+        cell.backgroundColor = .black
 
         return cell
     }
@@ -49,20 +59,15 @@ class TableViewController: UITableViewController {
         return 60
     }
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection
-                                section: Int) -> String? {
-       return "Finally Rich"
-    }
-    
+    //MARK: - Navigation
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "Show Details" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let detailsVC = segue.destination as! TrackInfoVC
+                detailsVC.trackTitle = imageNameArray[indexPath.row]
+            }
+        }
     }
-    */
-
 }

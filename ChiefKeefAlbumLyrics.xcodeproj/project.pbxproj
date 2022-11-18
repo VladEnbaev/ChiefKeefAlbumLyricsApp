@@ -13,6 +13,8 @@
 		FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */; };
 		FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */; };
 		FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */; };
+		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
+		FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FFF8AD7F2927DF6A004A8AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF8AD812927DF6A004A8AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
+		FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Love Sosa.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		FFF8AD722927DF69004A8AD4 /* ChiefKeefAlbumLyrics */ = {
 			isa = PBXGroup;
 			children = (
+				FFF8AD8E292829E5004A8AD4 /* FinallyRichLyrics */,
 				FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */,
 				FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */,
+				FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */,
 				FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */,
 				FFF8AD792927DF69004A8AD4 /* Main.storyboard */,
 				FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */,
@@ -65,6 +71,14 @@
 				FFF8AD812927DF6A004A8AD4 /* Info.plist */,
 			);
 			path = ChiefKeefAlbumLyrics;
+			sourceTree = "<group>";
+		};
+		FFF8AD8E292829E5004A8AD4 /* FinallyRichLyrics */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */,
+			);
+			name = FinallyRichLyrics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
 				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
+				FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			files = (
 				FFF8AD742927DF69004A8AD4 /* AppDelegate.swift in Sources */,
 				FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */,
+				FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */,
 				FFF8AD762927DF69004A8AD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
