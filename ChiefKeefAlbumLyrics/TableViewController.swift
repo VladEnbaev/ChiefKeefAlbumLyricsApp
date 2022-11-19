@@ -26,8 +26,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.backgroundColor = .black
-        self.view.backgroundColor = .black
-        
+        self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "smoke.jpeg")!)
         // Do any additional setup after loading the view.
     }
     
@@ -51,6 +50,7 @@ class TableViewController: UITableViewController {
         //background
         cell.backgroundView?.backgroundColor = .systemRed
         cell.backgroundColor = .black
+        cell.selectionStyle = .none
 
         return cell
     }

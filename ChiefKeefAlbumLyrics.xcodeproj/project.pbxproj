@@ -15,6 +15,15 @@
 		FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */; };
 		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
 		FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */; };
+		FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9529284070004A8AD4 /* Hallelujah.txt */; };
+		FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */; };
+		FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9929284110004A8AD4 /* No Tommorow.txt */; };
+		FFF8AD9C2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */; };
+		FFF8AD9E29284145004A8AD4 /* Kay Kay.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */; };
+		FFF8ADA02928415F004A8AD4 /* Laughtin' To The Bank.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */; };
+		FFF8ADA4292841B8004A8AD4 /* Diamonds (feat. French Montana).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */; };
+		FFF8ADA6292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */; };
+		FFF8ADA8292841E6004A8AD4 /* Finally Rich.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
 		FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Love Sosa.txt"; sourceTree = "<group>"; };
+		FFF8AD9529284070004A8AD4 /* Hallelujah.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hallelujah.txt; sourceTree = "<group>"; };
+		FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "I Don't Like (feat. Lil Reese).txt"; sourceTree = "<group>"; };
+		FFF8AD9929284110004A8AD4 /* No Tommorow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "No Tommorow.txt"; sourceTree = "<group>"; };
+		FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt"; sourceTree = "<group>"; };
+		FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kay Kay.txt"; sourceTree = "<group>"; };
+		FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Laughtin' To The Bank.txt"; sourceTree = "<group>"; };
+		FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Diamonds (feat. French Montana).txt"; sourceTree = "<group>"; };
+		FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3Hunna (feat. Rick Ross).txt"; sourceTree = "<group>"; };
+		FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Finally Rich.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,15 @@
 			isa = PBXGroup;
 			children = (
 				FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */,
+				FFF8AD9529284070004A8AD4 /* Hallelujah.txt */,
+				FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */,
+				FFF8AD9929284110004A8AD4 /* No Tommorow.txt */,
+				FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */,
+				FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */,
+				FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */,
+				FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */,
+				FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */,
+				FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */,
 			);
 			name = FinallyRichLyrics;
 			sourceTree = "<group>";
@@ -139,9 +166,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF8ADA4292841B8004A8AD4 /* Diamonds (feat. French Montana).txt in Resources */,
+				FFF8AD9E29284145004A8AD4 /* Kay Kay.txt in Resources */,
+				FFF8ADA6292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt in Resources */,
+				FFF8AD9C2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt in Resources */,
+				FFF8ADA8292841E6004A8AD4 /* Finally Rich.txt in Resources */,
+				FFF8ADA02928415F004A8AD4 /* Laughtin' To The Bank.txt in Resources */,
+				FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */,
 				FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */,
+				FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
 				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
+				FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */,
 				FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

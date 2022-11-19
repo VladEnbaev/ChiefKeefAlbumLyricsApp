@@ -19,16 +19,14 @@ class TrackInfoVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //view
-        self.view.backgroundColor = .black
         imageView.image = UIImage(named: "FinallyRich")
         //label
         label.text = trackTitle
-        label.numberOfLines = 0
+        label.numberOfLines = 2
         label.textAlignment = .center
         label.textColor = .white
         //text view
         textView.text = try? String(contentsOfFile: "/Users/vladislavenbaev/swift/SwiftBook_UIKit/ChiefKeefAlbumLyrics/ChiefKeefAlbumLyrics/\(trackTitle).txt")
-        textView.backgroundColor = .black
         textView.textColor = .white
     }
 
