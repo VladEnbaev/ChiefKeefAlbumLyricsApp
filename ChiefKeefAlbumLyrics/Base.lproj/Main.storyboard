@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BaF-IK-h8p">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -56,38 +57,39 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kdy-cM-rqV">
-                                <rect key="frame" x="16" y="411" width="358" height="345"/>
+                                <rect key="frame" x="16" y="419" width="358" height="337"/>
                                 <color key="backgroundColor" red="0.090196087960000004" green="0.054901964960000001" blue="0.043137259779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="345" id="Tbk-EB-oq2"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.66552740335464478" green="0.66552740335464478" blue="0.66552740335464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qX-tq-44Y">
-                                <rect key="frame" x="0.0" y="9" width="390" height="36"/>
+                                <rect key="frame" x="16" y="9" width="358" height="36"/>
+                                <color key="backgroundColor" red="0.11626283079385757" green="0.069843597710132599" blue="0.053275711834430695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="bRl-0u-ejN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.51025384664535522" green="0.51025390625" blue="0.51025390625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jsq-qY-Hbz"/>
-                        <color key="backgroundColor" red="0.097857154905796051" green="0.054949432611465454" blue="0.037579018622636795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Hi4-5f-W92" firstAttribute="top" secondItem="4qX-tq-44Y" secondAttribute="bottom" constant="8" symbolic="YES" id="2kc-bb-jM7"/>
                             <constraint firstItem="Kdy-cM-rqV" firstAttribute="leading" secondItem="jsq-qY-Hbz" secondAttribute="leading" constant="16" id="9nJ-Tv-fGt"/>
-                            <constraint firstItem="Kdy-cM-rqV" firstAttribute="top" secondItem="Hi4-5f-W92" secondAttribute="bottom" id="HVR-LJ-Q3z"/>
+                            <constraint firstItem="Kdy-cM-rqV" firstAttribute="top" secondItem="Hi4-5f-W92" secondAttribute="bottom" constant="8" id="HVR-LJ-Q3z"/>
                             <constraint firstItem="Hi4-5f-W92" firstAttribute="leading" secondItem="jsq-qY-Hbz" secondAttribute="leading" constant="16" id="OQT-oZ-0ZF"/>
                             <constraint firstItem="jsq-qY-Hbz" firstAttribute="bottom" secondItem="Kdy-cM-rqV" secondAttribute="bottom" constant="34" id="Puh-kz-5EK"/>
-                            <constraint firstAttribute="trailing" secondItem="4qX-tq-44Y" secondAttribute="trailing" id="aTm-OB-7PO"/>
+                            <constraint firstAttribute="trailing" secondItem="4qX-tq-44Y" secondAttribute="trailing" constant="16" id="aTm-OB-7PO"/>
                             <constraint firstItem="jsq-qY-Hbz" firstAttribute="trailing" secondItem="Hi4-5f-W92" secondAttribute="trailing" constant="16" id="lrJ-Pp-Xon"/>
                             <constraint firstItem="4qX-tq-44Y" firstAttribute="top" secondItem="Veg-Uq-rFF" secondAttribute="top" constant="9" id="nfY-yM-0np"/>
-                            <constraint firstItem="4qX-tq-44Y" firstAttribute="leading" secondItem="Veg-Uq-rFF" secondAttribute="leading" id="uZ3-ZB-ect"/>
-                            <constraint firstItem="Hi4-5f-W92" firstAttribute="top" secondItem="4qX-tq-44Y" secondAttribute="bottom" constant="8" symbolic="YES" id="vaQ-sT-f8i"/>
+                            <constraint firstItem="4qX-tq-44Y" firstAttribute="leading" secondItem="Veg-Uq-rFF" secondAttribute="leading" constant="16" id="uZ3-ZB-ect"/>
                             <constraint firstItem="jsq-qY-Hbz" firstAttribute="trailing" secondItem="Kdy-cM-rqV" secondAttribute="trailing" constant="16" id="zql-Ch-6sv"/>
                         </constraints>
                     </view>

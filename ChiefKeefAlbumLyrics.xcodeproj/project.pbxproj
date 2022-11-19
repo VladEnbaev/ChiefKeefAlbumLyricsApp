@@ -14,7 +14,7 @@
 		FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */; };
 		FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */; };
 		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
-		FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */; };
+		FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */; };
 		FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9529284070004A8AD4 /* Hallelujah.txt */; };
 		FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */; };
 		FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9929284110004A8AD4 /* No Tommorow.txt */; };
@@ -36,7 +36,7 @@
 		FFF8AD812927DF6A004A8AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
-		FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Love Sosa.txt"; sourceTree = "<group>"; };
+		FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Love_Sosa.txt; sourceTree = "<group>"; };
 		FFF8AD9529284070004A8AD4 /* Hallelujah.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hallelujah.txt; sourceTree = "<group>"; };
 		FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "I Don't Like (feat. Lil Reese).txt"; sourceTree = "<group>"; };
 		FFF8AD9929284110004A8AD4 /* No Tommorow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "No Tommorow.txt"; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		FFF8AD8E292829E5004A8AD4 /* FinallyRichLyrics */ = {
 			isa = PBXGroup;
 			children = (
-				FFF8AD8F29282A1B004A8AD4 /* Love Sosa.txt */,
+				FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */,
 				FFF8AD9529284070004A8AD4 /* Hallelujah.txt */,
 				FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */,
 				FFF8AD9929284110004A8AD4 /* No Tommorow.txt */,
@@ -178,7 +178,7 @@
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
 				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
 				FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */,
-				FFF8AD9029282A1B004A8AD4 /* Love Sosa.txt in Resources */,
+				FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

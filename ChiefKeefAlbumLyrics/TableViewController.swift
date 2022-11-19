@@ -21,13 +21,14 @@ class TableViewController: UITableViewController {
                           "Understand Me (feat. Young Jeezy)",
                           "3Hunna (feat. Rick Ross)",
                           "Finally Rich"]
-                          
     
+    
+                                             
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.backgroundColor = .black
         self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "smoke.jpeg")!)
-        // Do any additional setup after loading the view.
+                                                 
     }
     
     // MARK: - TableView data source

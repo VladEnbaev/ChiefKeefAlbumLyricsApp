@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "smoke.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "smoke-1.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
