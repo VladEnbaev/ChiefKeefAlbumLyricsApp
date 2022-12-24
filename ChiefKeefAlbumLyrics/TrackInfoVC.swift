@@ -716,7 +716,9 @@ class TrackInfoVC: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textView: UITextView!
-
+    var segmentedControl = UISegmentedControl()
+    var segmentedControlItems = ["player", "text"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //view
@@ -729,7 +731,34 @@ class TrackInfoVC: UIViewController {
         label.textAlignment = .center
         //text view
         textView.text = textStorage[trackTitle]
+        //segmented control
+        self.segmentedControl = UISegmentedControl(items: segmentedControlItems)
+        self.segmentedControl.frame = CGRect(x: 130, y: 720, width: 130, height: 30)
+        
+        self.segmentedControl.tintColor = .systemYellow
+        self.view.addSubview(self.segmentedControl)
+        
+        self.segmentedControl.addTarget(self, action: #selector(segmentChange(sender:)), for: .valueChanged)
     }
-
+    
+    @objc func segmentChange(sender: UISegmentedControl){
+        if sender == self.segmentedControl{
+            switch sender.selectedSegmentIndex{
+            case 0:
+                hideAllElements(true)
+                self.imageView.isHidden = false
+            case 1:
+                hideAllElements(true)
+                self.textView.isHidden = false
+            default:
+                break
+            }
+        }
+    }
+    
+    func hideAllElements(_ bool: Bool){
+        self.imageView.isHidden = bool
+        self.textView.isHidden = bool
+    }
 }
 

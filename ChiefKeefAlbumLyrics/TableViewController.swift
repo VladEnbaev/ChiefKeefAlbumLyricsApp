@@ -52,7 +52,6 @@ class TableViewController: UITableViewController {
         cell.backgroundView?.backgroundColor = .systemRed
         cell.backgroundColor = .black
         cell.selectionStyle = .none
-
         return cell
     }
     

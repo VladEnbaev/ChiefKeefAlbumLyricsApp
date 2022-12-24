@@ -16,7 +16,6 @@
 		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
 		FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */; };
 		FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9529284070004A8AD4 /* Hallelujah.txt */; };
-		FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */; };
 		FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9929284110004A8AD4 /* No Tommorow.txt */; };
 		FFF8AD9C2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */; };
 		FFF8AD9E29284145004A8AD4 /* Kay Kay.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */; };
@@ -38,7 +37,6 @@
 		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
 		FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Love_Sosa.txt; sourceTree = "<group>"; };
 		FFF8AD9529284070004A8AD4 /* Hallelujah.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hallelujah.txt; sourceTree = "<group>"; };
-		FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "I Don't Like (feat. Lil Reese).txt"; sourceTree = "<group>"; };
 		FFF8AD9929284110004A8AD4 /* No Tommorow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "No Tommorow.txt"; sourceTree = "<group>"; };
 		FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt"; sourceTree = "<group>"; };
 		FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kay Kay.txt"; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			children = (
 				FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */,
 				FFF8AD9529284070004A8AD4 /* Hallelujah.txt */,
-				FFF8AD97292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt */,
 				FFF8AD9929284110004A8AD4 /* No Tommorow.txt */,
 				FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */,
 				FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */,
@@ -177,7 +174,6 @@
 				FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
 				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
-				FFF8AD98292840CB004A8AD4 /* I Don't Like (feat. Lil Reese).txt in Resources */,
 				FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -322,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
