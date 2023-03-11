@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */; };
+		FFD4906929BCDB2800823C75 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4906829BCDB2800823C75 /* TrackModel.swift */; };
+		FFD4906D29BCDBB600823C75 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4906C29BCDBB600823C75 /* Texts.swift */; };
 		FFF8AD742927DF69004A8AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */; };
 		FFF8AD762927DF69004A8AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */; };
 		FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD792927DF69004A8AD4 /* Main.storyboard */; };
@@ -15,19 +17,12 @@
 		FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */; };
 		FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */; };
 		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
-		FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */; };
-		FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9529284070004A8AD4 /* Hallelujah.txt */; };
-		FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9929284110004A8AD4 /* No Tommorow.txt */; };
-		FFF8AD9C2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */; };
-		FFF8AD9E29284145004A8AD4 /* Kay Kay.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */; };
-		FFF8ADA02928415F004A8AD4 /* Laughtin' To The Bank.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */; };
-		FFF8ADA4292841B8004A8AD4 /* Diamonds (feat. French Montana).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */; };
-		FFF8ADA6292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */; };
-		FFF8ADA8292841E6004A8AD4 /* Finally Rich.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I Don't Like (feat. Lil Reese).mp3"; path = "/Users/vladislavenbaev/swift/SwiftBook_UIKit/ChiefKeefAlbumLyrics/ChiefKeefAlbumLyrics/I Don't Like (feat. Lil Reese).mp3"; sourceTree = "<absolute>"; };
+		FFD4906829BCDB2800823C75 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		FFD4906C29BCDBB600823C75 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
 		FFF8AD702927DF69004A8AD4 /* ChiefKeefAlbumLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiefKeefAlbumLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,15 +32,6 @@
 		FFF8AD812927DF6A004A8AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
-		FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Love_Sosa.txt; sourceTree = "<group>"; };
-		FFF8AD9529284070004A8AD4 /* Hallelujah.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hallelujah.txt; sourceTree = "<group>"; };
-		FFF8AD9929284110004A8AD4 /* No Tommorow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "No Tommorow.txt"; sourceTree = "<group>"; };
-		FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt"; sourceTree = "<group>"; };
-		FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Kay Kay.txt"; sourceTree = "<group>"; };
-		FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Laughtin' To The Bank.txt"; sourceTree = "<group>"; };
-		FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Diamonds (feat. French Montana).txt"; sourceTree = "<group>"; };
-		FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "3Hunna (feat. Rick Ross).txt"; sourceTree = "<group>"; };
-		FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Finally Rich.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +45,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FFD4906629BCDAD400823C75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */,
+				FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFD4906729BCDAF000823C75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */,
+				FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */,
+				FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */,
+				FFF8AD812927DF6A004A8AD4 /* Info.plist */,
+				FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */,
+				FFD4906C29BCDBB600823C75 /* Texts.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFD4906A29BCDB3700823C75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFF8AD792927DF69004A8AD4 /* Main.storyboard */,
+				FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFD4906B29BCDB4A00823C75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4906829BCDB2800823C75 /* TrackModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FFF8AD672927DF69004A8AD4 = {
 			isa = PBXGroup;
 			children = (
@@ -78,34 +103,12 @@
 		FFF8AD722927DF69004A8AD4 /* ChiefKeefAlbumLyrics */ = {
 			isa = PBXGroup;
 			children = (
-				FFF8AD8E292829E5004A8AD4 /* FinallyRichLyrics */,
-				FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */,
-				FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */,
-				FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */,
-				FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */,
-				FFF8AD792927DF69004A8AD4 /* Main.storyboard */,
-				FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */,
-				FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */,
-				FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */,
-				FFF8AD812927DF6A004A8AD4 /* Info.plist */,
+				FFD4906729BCDAF000823C75 /* Resources */,
+				FFD4906629BCDAD400823C75 /* Controller */,
+				FFD4906A29BCDB3700823C75 /* View */,
+				FFD4906B29BCDB4A00823C75 /* Model */,
 			);
 			path = ChiefKeefAlbumLyrics;
-			sourceTree = "<group>";
-		};
-		FFF8AD8E292829E5004A8AD4 /* FinallyRichLyrics */ = {
-			isa = PBXGroup;
-			children = (
-				FFF8AD8F29282A1B004A8AD4 /* Love_Sosa.txt */,
-				FFF8AD9529284070004A8AD4 /* Hallelujah.txt */,
-				FFF8AD9929284110004A8AD4 /* No Tommorow.txt */,
-				FFF8AD9B2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt */,
-				FFF8AD9D29284145004A8AD4 /* Kay Kay.txt */,
-				FFF8AD9F2928415F004A8AD4 /* Laughtin' To The Bank.txt */,
-				FFF8ADA3292841B8004A8AD4 /* Diamonds (feat. French Montana).txt */,
-				FFF8ADA5292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt */,
-				FFF8ADA7292841E6004A8AD4 /* Finally Rich.txt */,
-			);
-			name = FinallyRichLyrics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,19 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFF8ADA4292841B8004A8AD4 /* Diamonds (feat. French Montana).txt in Resources */,
-				FFF8AD9E29284145004A8AD4 /* Kay Kay.txt in Resources */,
-				FFF8ADA6292841D3004A8AD4 /* 3Hunna (feat. Rick Ross).txt in Resources */,
-				FFF8AD9C2928412C004A8AD4 /* Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa).txt in Resources */,
-				FFF8ADA8292841E6004A8AD4 /* Finally Rich.txt in Resources */,
-				FFF8ADA02928415F004A8AD4 /* Laughtin' To The Bank.txt in Resources */,
-				FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */,
 				FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */,
 				FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */,
-				FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
 				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
-				FFF8AD9029282A1B004A8AD4 /* Love_Sosa.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD4906D29BCDBB600823C75 /* Texts.swift in Sources */,
 				FFF8AD742927DF69004A8AD4 /* AppDelegate.swift in Sources */,
 				FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */,
 				FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */,
+				FFD4906929BCDB2800823C75 /* TrackModel.swift in Sources */,
 				FFF8AD762927DF69004A8AD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T574RGJCUB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Info.plist;
+				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -370,7 +366,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T574RGJCUB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Info.plist;
+				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

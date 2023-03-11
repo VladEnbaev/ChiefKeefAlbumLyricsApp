@@ -9,47 +9,28 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    let imageNameArray = ["Love Sosa",
-                          "Hallelujah",
-                          "I Don't Like (feat. Lil Reese)",
-                          "No Tommorow",
-                          "Hate Bein' Sober (feat. 50 Cent & Wiz Khalifa)",
-                          "Kay Kay",
-                          "Laughtin' To The Bank",
-                          "Diamonds (feat. French Montana)",
-                          "Ballin'",
-                          "Understand Me (feat. Young Jeezy)",
-                          "3Hunna (feat. Rick Ross)",
-                          "Finally Rich"]
+    let tracksArray = Track.finallyRichTracks
     
-    
-                                             
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.backgroundColor = .black
         self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "smoke.jpeg")!)
-        print("tableViewDidLoad")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        print("tableViewWillAppear")
     }
     
     // MARK: - TableView data source
-    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return imageNameArray.count
+        return tracksArray.count
     }
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Title", for: indexPath)
-        
+        let currentTrack = tracksArray[indexPath.row]
         //image
-        cell.imageView?.image = UIImage(named: "FinallyRich")
+        cell.imageView?.image = UIImage(named: currentTrack.imageName)
         cell.imageView?.layer.borderColor = UIColor.black.cgColor
         cell.imageView?.layer.borderWidth = 3
         //label
-        cell.textLabel?.text = imageNameArray[indexPath.row]
+        cell.textLabel?.text = currentTrack.name
         cell.textLabel?.numberOfLines = 2
         cell.textLabel?.textColor = .white
         //background
@@ -70,7 +51,7 @@ class TableViewController: UITableViewController {
         if segue.identifier == "Show Details" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let detailsVC = segue.destination as! TrackInfoVC
-                detailsVC.trackTitle = imageNameArray[indexPath.row]
+                detailsVC.prepare(track: tracksArray[indexPath.row])
             }
         }
     }
