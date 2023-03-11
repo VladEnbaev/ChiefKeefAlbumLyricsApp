@@ -1,18 +1,15 @@
 //
-//  TrackInfoVC.swift
+//  Texts.swift
 //  ChiefKeefAlbumLyrics
 //
-//  Created by Влад Енбаев on 18.11.2022.
+//  Created by Влад Енбаев on 11.03.2023.
 //
 
-import UIKit
 import Foundation
-import AVFoundation
 
-class TrackInfoVC: UIViewController {
-    
-    var trackTitle = ""
-    let textStorage = ["Love Sosa" : """
+
+struct Texts {
+    static let textStorage = ["Love Sosa" : """
                        [Intro: Jordan Gilty & Chief Keef]
                        Fuckers in school telling me, always in the barber shop
                        'Chief Keef ain't 'bout this, Chief Keef ain't 'bout that'
@@ -713,94 +710,4 @@ class TrackInfoVC: UIViewController {
                         Bitch, I’m finally rich (Beep, beep)
 
                         """]
-    
-    @IBOutlet weak var trackSlider: UISlider!
-    @IBOutlet weak var stopButton: UIButton!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-    var segmentedControlItems = ["cover", "text"]
-    var player = AVAudioPlayer()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        //view
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "smoke.jpeg")!)
-        //image view
-        imageView.image = UIImage(named: "FinallyRich")
-        //label
-        label.text = trackTitle
-        label.numberOfLines = 2
-        label.textAlignment = .center
-        //text view
-        textView.text = textStorage[trackTitle]
-        textView.isEditable = false
-        //segmented control
-        self.segmentedControl.selectedSegmentTintColor = self.label.backgroundColor
-        
-        let titleTextAttributes = [NSAttributedString.Key.foregroundColor : self.label.textColor]
-        segmentedControl.setTitleTextAttributes(titleTextAttributes as [NSAttributedString.Key : Any], for: .normal)
-        
-        self.segmentedControl.selectedSegmentIndex = 0
-        self.view.addSubview(self.segmentedControl)
-        
-        self.segmentedControl.addTarget(self, action: #selector(segmentChange(sender:)), for: .valueChanged)
-        hideAllElements(true)
-        self.imageView.isHidden = false
-        
-        // slider
-        self.trackSlider.thumbTintColor = self.label.textColor
-        self.trackSlider.minimumTrackTintColor = .systemYellow
-        //player
-        do {
-            if let audioPath = Bundle.main.path(forResource: trackTitle, ofType: ".mp3"){
-                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath))
-            }
-            self.trackSlider.maximumValue = Float(player.duration)
-        } catch {
-            print("error")
-        }
-        print("viewDidLoad()")
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        print("viewDiDAppear()")
-    }
-    
-    @objc func segmentChange(sender: UISegmentedControl){
-        if sender == self.segmentedControl{
-            switch sender.selectedSegmentIndex{
-            case 0:
-                hideAllElements(true)
-                self.imageView.isHidden = false
-            case 1:
-                hideAllElements(true)
-                self.textView.isHidden = false
-            default:
-                break
-            }
-        }
-    }
-    
-    func hideAllElements(_ bool: Bool){
-        self.imageView.isHidden = bool
-        self.textView.isHidden = bool
-    }
-    
-    @IBAction func sliderValueChanged(_ sender: UISlider) {
-        guard sender == self.trackSlider else { return }
-        self.player.currentTime = TimeInterval(sender.value)
-    }
-    @IBAction func playButtonPressed(_ sender: Any) {
-        if player.isPlaying{
-            self.player.stop()
-            self.stopButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
-        } else {
-            self.player.play()
-            self.stopButton.setImage(UIImage(systemName: "stop.fill"), for: .normal)
-        }
-    }
-    
 }
-
