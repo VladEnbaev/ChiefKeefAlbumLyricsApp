@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */; };
 		FFF8AD742927DF69004A8AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */; };
 		FFF8AD762927DF69004A8AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */; };
 		FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD792927DF69004A8AD4 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I Don't Like (feat. Lil Reese).mp3"; path = "/Users/vladislavenbaev/swift/SwiftBook_UIKit/ChiefKeefAlbumLyrics/ChiefKeefAlbumLyrics/I Don't Like (feat. Lil Reese).mp3"; sourceTree = "<absolute>"; };
 		FFF8AD702927DF69004A8AD4 /* ChiefKeefAlbumLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiefKeefAlbumLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				FFF8AD792927DF69004A8AD4 /* Main.storyboard */,
 				FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */,
 				FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */,
+				FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */,
 				FFF8AD812927DF6A004A8AD4 /* Info.plist */,
 			);
 			path = ChiefKeefAlbumLyrics;
@@ -170,6 +173,7 @@
 				FFF8ADA8292841E6004A8AD4 /* Finally Rich.txt in Resources */,
 				FFF8ADA02928415F004A8AD4 /* Laughtin' To The Bank.txt in Resources */,
 				FFF8AD9629284070004A8AD4 /* Hallelujah.txt in Resources */,
+				FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */,
 				FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */,
 				FFF8AD9A29284110004A8AD4 /* No Tommorow.txt in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,

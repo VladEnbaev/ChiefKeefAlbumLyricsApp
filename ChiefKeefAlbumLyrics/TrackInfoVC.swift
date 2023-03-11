@@ -7,6 +7,7 @@
 
 import UIKit
 import Foundation
+import AVFoundation
 
 class TrackInfoVC: UIViewController {
     
@@ -713,11 +714,14 @@ class TrackInfoVC: UIViewController {
 
                         """]
     
+    @IBOutlet weak var trackSlider: UISlider!
+    @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textView: UITextView!
-    var segmentedControl = UISegmentedControl()
-    var segmentedControlItems = ["player", "text"]
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    var segmentedControlItems = ["cover", "text"]
+    var player = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -731,14 +735,37 @@ class TrackInfoVC: UIViewController {
         label.textAlignment = .center
         //text view
         textView.text = textStorage[trackTitle]
+        textView.isEditable = false
         //segmented control
-        self.segmentedControl = UISegmentedControl(items: segmentedControlItems)
-        self.segmentedControl.frame = CGRect(x: 130, y: 720, width: 130, height: 30)
+        self.segmentedControl.selectedSegmentTintColor = self.label.backgroundColor
         
-        self.segmentedControl.tintColor = .systemYellow
+        let titleTextAttributes = [NSAttributedString.Key.foregroundColor : self.label.textColor]
+        segmentedControl.setTitleTextAttributes(titleTextAttributes as [NSAttributedString.Key : Any], for: .normal)
+        
+        self.segmentedControl.selectedSegmentIndex = 0
         self.view.addSubview(self.segmentedControl)
         
         self.segmentedControl.addTarget(self, action: #selector(segmentChange(sender:)), for: .valueChanged)
+        hideAllElements(true)
+        self.imageView.isHidden = false
+        
+        // slider
+        self.trackSlider.thumbTintColor = self.label.textColor
+        self.trackSlider.minimumTrackTintColor = .systemYellow
+        //player
+        do {
+            if let audioPath = Bundle.main.path(forResource: trackTitle, ofType: ".mp3"){
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath))
+            }
+            self.trackSlider.maximumValue = Float(player.duration)
+        } catch {
+            print("error")
+        }
+        print("viewDidLoad()")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDiDAppear()")
     }
     
     @objc func segmentChange(sender: UISegmentedControl){
@@ -760,5 +787,20 @@ class TrackInfoVC: UIViewController {
         self.imageView.isHidden = bool
         self.textView.isHidden = bool
     }
+    
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        guard sender == self.trackSlider else { return }
+        self.player.currentTime = TimeInterval(sender.value)
+    }
+    @IBAction func playButtonPressed(_ sender: Any) {
+        if player.isPlaying{
+            self.player.stop()
+            self.stopButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
+        } else {
+            self.player.play()
+            self.stopButton.setImage(UIImage(systemName: "stop.fill"), for: .normal)
+        }
+    }
+    
 }
 

@@ -28,7 +28,11 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         self.tableView.backgroundColor = .black
         self.tableView.backgroundColor = UIColor(patternImage: UIImage(named: "smoke.jpeg")!)
-                                                 
+        print("tableViewDidLoad")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("tableViewWillAppear")
     }
     
     // MARK: - TableView data source
