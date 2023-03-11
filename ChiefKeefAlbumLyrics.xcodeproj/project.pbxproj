@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF8A277029BCF73F0063B1FF /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8A276F29BCF73F0063B1FF /* Main1.storyboard */; };
 		FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */; };
 		FFD4906929BCDB2800823C75 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4906829BCDB2800823C75 /* TrackModel.swift */; };
 		FFD4906D29BCDBB600823C75 /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4906C29BCDBB600823C75 /* Texts.swift */; };
 		FFF8AD742927DF69004A8AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */; };
 		FFF8AD762927DF69004A8AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */; };
-		FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD792927DF69004A8AD4 /* Main.storyboard */; };
 		FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */; };
-		FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */; };
 		FFF8AD882927E8A2004A8AD4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */; };
 		FFF8AD8A2927F71D004A8AD4 /* TrackInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF8A276F29BCF73F0063B1FF /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
 		FFBBAA05295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "I Don't Like (feat. Lil Reese).mp3"; path = "/Users/vladislavenbaev/swift/SwiftBook_UIKit/ChiefKeefAlbumLyrics/ChiefKeefAlbumLyrics/I Don't Like (feat. Lil Reese).mp3"; sourceTree = "<absolute>"; };
 		FFD4906829BCDB2800823C75 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
 		FFD4906C29BCDBB600823C75 /* Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		FFE71E6229BCF39B0051A2F5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF8AD702927DF69004A8AD4 /* ChiefKeefAlbumLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiefKeefAlbumLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF8AD732927DF69004A8AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF8AD752927DF69004A8AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFF8AD7A2927DF69004A8AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFF8AD7C2927DF6A004A8AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFF8AD7F2927DF6A004A8AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFF8AD812927DF6A004A8AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFF8AD872927E8A2004A8AD4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FFF8AD892927F71D004A8AD4 /* TrackInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackInfoVC.swift; sourceTree = "<group>"; };
@@ -67,21 +66,21 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		FFD4906A29BCDB3700823C75 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FFF8AD792927DF69004A8AD4 /* Main.storyboard */,
-				FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		FFD4906B29BCDB4A00823C75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				FFD4906829BCDB2800823C75 /* TrackModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FFE71E6329BCF4260051A2F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFE71E6229BCF39B0051A2F5 /* LaunchScreen.storyboard */,
+				FF8A276F29BCF73F0063B1FF /* Main1.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FFF8AD672927DF69004A8AD4 = {
@@ -103,9 +102,9 @@
 		FFF8AD722927DF69004A8AD4 /* ChiefKeefAlbumLyrics */ = {
 			isa = PBXGroup;
 			children = (
+				FFE71E6329BCF4260051A2F5 /* View */,
 				FFD4906729BCDAF000823C75 /* Resources */,
 				FFD4906629BCDAD400823C75 /* Controller */,
-				FFD4906A29BCDB3700823C75 /* View */,
 				FFD4906B29BCDB4A00823C75 /* Model */,
 			);
 			path = ChiefKeefAlbumLyrics;
@@ -170,9 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBBAA06295742EB0090F649 /* I Don't Like (feat. Lil Reese).mp3 in Resources */,
-				FFF8AD802927DF6A004A8AD4 /* LaunchScreen.storyboard in Resources */,
 				FFF8AD7D2927DF6A004A8AD4 /* Assets.xcassets in Resources */,
-				FFF8AD7B2927DF69004A8AD4 /* Main.storyboard in Resources */,
+				FF8A277029BCF73F0063B1FF /* Main1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,25 +191,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FFF8AD792927DF69004A8AD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFF8AD7A2927DF69004A8AD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFF8AD7E2927DF6A004A8AD4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFF8AD7F2927DF6A004A8AD4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FFF8AD822927DF6A004A8AD4 /* Debug */ = {
@@ -340,7 +319,7 @@
 				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main1;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -369,7 +348,7 @@
 				INFOPLIST_FILE = ChiefKeefAlbumLyrics/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main1;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
